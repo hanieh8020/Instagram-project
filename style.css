@@ -1,0 +1,116 @@
+body{
+    background-color:#eee;
+}
+
+*{
+    font-family: Tahoma;
+}
+
+a{
+    color: rgb(141, 141, 141);
+    text-decoration: none;
+}
+
+.container{
+    width: 950px;
+    margin: 0 auto;
+
+}
+
+.main{
+    margin-top: 70px;
+}
+
+.main-left{
+    width: 60%;
+    padding-top: 20px;
+}
+
+.main-right{
+    width: 39%;
+}
+
+.main-left,.main-right{
+display: inline-block;
+vertical-align: top;
+text-align: center;
+}
+
+.main-form,.switch-page{
+    border: 1px solid rgb(216, 215, 215);
+    background-color: #fff;
+    padding: 40px;
+
+}
+
+.main-form form input{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgb(252, 250, 250);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(226, 225, 225);
+    margin-bottom:6px;
+    border-radius: 2px;
+}
+
+
+.main-form form input:last-of-type{
+    background-color: rgb(1, 79, 248);
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.main-form p:first-of-type{
+    color:rgb(172, 169, 169);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-form p a {
+    font-weight: bold;
+}
+
+.main-form p:last-of-type{
+    color: rgb(134, 133, 133);
+}
+
+
+.switch-page{
+    padding: 20px;
+}
+
+.main-right div{
+    margin-bottom: 10px;
+}
+
+.app-links img{
+    width:170px;
+
+}
+
+.main-left img{
+    width: 100%;
+}
+
+.footer div{
+    text-align: center;
+}
+
+.footer a{
+    margin: 10px;
+}
+
+.footer-lane1{
+    margin-bottom: 10px;
+}
+
+.footer-lane2{
+    margin-bottom: 20px;
+}
+
+.footer-lane3 span{
+    color: rgb(153, 153, 153);
+}
